@@ -43,9 +43,9 @@ def accuracy_five(targets, idx, base_index):
 
 # Чтение данных
 
-base_path = '/Users/daniilkorolev/Downloads/data/base.csv'
-validation_path = '/Users/daniilkorolev/Downloads/data/validation.csv'
-validation_answers_path = '/Users/daniilkorolev/Downloads/data/validation_answer.csv'
+base_path = '...'
+validation_path = '...'
+validation_answers_path = '...'
 
 main_df = read_data(base_path)
 valid_df = read_data(validation_path)
